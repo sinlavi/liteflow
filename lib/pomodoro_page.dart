@@ -113,7 +113,7 @@ class PomodoroPage extends StatelessWidget {
                 ),
                 const SizedBox(height: 24),
                 Text('Completed today: ${p.done}',
-                    style: Theme.of(context).textTheme.subtitle1),
+                    style: Theme.of(context).textTheme.titleMedium),
               ],
             ),
           ),
